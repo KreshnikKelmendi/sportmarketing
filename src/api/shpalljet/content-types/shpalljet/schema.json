@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "shpalljets",
+  "info": {
+    "singularName": "shpalljet",
+    "pluralName": "shpalljets",
+    "displayName": "Shpalljet",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "titulli": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "date": {
+      "type": "date"
+    },
+    "kontrata": {
+      "type": "text"
+    },
+    "orari": {
+      "type": "string"
+    },
+    "paga": {
+      "type": "string"
+    },
+    "vendi": {
+      "type": "string"
+    },
+    "diploma": {
+      "type": "string"
+    },
+    "pervojaPunes": {
+      "type": "string"
+    },
+    "kushtetKualifikimit": {
+      "type": "string"
+    },
+    "njohjaGjuhes": {
+      "type": "string"
+    },
+    "detyra1": {
+      "type": "text"
+    },
+    "detyra2": {
+      "type": "text"
+    },
+    "detyra3": {
+      "type": "text"
+    },
+    "detyra4": {
+      "type": "text"
+    },
+    "detyra5": {
+      "type": "text"
+    },
+    "detyra6": {
+      "type": "text"
+    },
+    "detyra7": {
+      "type": "text"
+    },
+    "detyra8": {
+      "type": "text"
+    },
+    "proceduraAplikimit": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kryeshefi_ekzekutivs",
+  "info": {
+    "singularName": "kryeshefi-ekzekutiv",
+    "pluralName": "kryeshefi-ekzekutivs",
+    "displayName": "Kryeshefi Ekzekutiv"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "emri": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "biografia": {
+      "type": "text"
+    }
+  }
+}

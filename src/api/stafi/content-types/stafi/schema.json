@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stafis",
+  "info": {
+    "singularName": "stafi",
+    "pluralName": "stafis",
+    "displayName": "Stafi"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "emriMbiemri": {
+      "type": "string"
+    },
+    "pozita": {
+      "type": "string"
+    }
+  }
+}
